@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> two digit calculator</title>
+</head>
+
+<body>
+    <center ><div class="marquee" style="  max-width:280px ; ">
+   <marquee> <h1>two digit calculator  two digit calculator </h1></marquee></div>
+    <br>
+<hr  style=" height: 2px; background-image: linear-gradient(to right, rgba(0, 0, 255, 0.322),rgba(0, 128, 0, 0.575) );" >
+    <input  style="background-image: linear-gradient(to right, rgba(255, 0, 0, 0.322),rgba(0, 19, 128, 0.575) );" type="number" id="text1" placeholder="Enter number">
+    <input  style="background-image: linear-gradient(to right, rgba(0, 0, 255, 0.322),rgba(0, 128, 0, 0.575) );"  type="number" id="text2" placeholder="Enter number">
+    <button onclick="fn1()">submit</button>
+    <hr  style=" height: 2px; background-image: linear-gradient(to right, rgba(0, 0, 255, 0.322),rgba(0, 128, 0, 0.575) );" >
+
+
+<div  class="answer" style=" height: 39px; border:rgba(72, 255, 0, 0.336) solid; border-radius: 18px; max-width: 180px; text-align: center; margin-top: 9px; padding: 05px 0px;   "  >
+<P> hello every one </P>
+
+<script defer >function fn1() 
+    {
+      var x = document.getElementById("text1").value;
+      var y = document.getElementById("text2").value;
+        
+    var xc = +x;
+    var yu = +y;
+    
+    
+    var total = xc+yu;
+    document.write("your answer is: " +total) 
+    
+       console.log("your answer is: " +total) 
+    }
+    </script>
+    
+</div>
+</center>
+
+    </body>
+    </html>
